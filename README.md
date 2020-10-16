@@ -11,5 +11,7 @@ Automation for IG
 import instagram
 
 x = instagram.start(username='user@email.com', password='password')
+
 x.login()
+
 x.follow('https://www.instagram.com/user_you_want_to_follow/')
